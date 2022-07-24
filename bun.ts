@@ -2,7 +2,7 @@ Bun.serve({
   fetch(req: Request) {
     return new Response("" + fib(40));
   },
-  port: 4000,
+  port: 4001,
 });
 
 const fib = (n: number): number => {
